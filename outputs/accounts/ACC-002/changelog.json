@@ -1,0 +1,54 @@
+{
+  "account_id": "ACC-002",
+  "company_name": "FreshAir Plumbing Solutions",
+  "generated_at": "2026-03-04T19:44:11.591Z",
+  "from_version": "v1",
+  "to_version": "v2",
+  "summary": "3 memo field(s) changed, 2 spec field(s) updated",
+  "memo_changes": [
+    {
+      "field": "after_hours_flow_summary",
+      "type": "modified",
+      "old_value": "calls go to on-call technician, try to respond within 45 minutes downtown",
+      "new_value": "calls go to on-call technician, $125 service call, parts and labor at standard rates, quoted before work starts",
+      "reason": "Updated during onboarding"
+    },
+    {
+      "field": "questions_or_unknowns",
+      "type": "modified",
+      "old_value": [
+        "emergency protocol now",
+        "geographic limits for specialty plumbers",
+        "integration with AppFolio"
+      ],
+      "new_value": [
+        "geographic limits for specialty plumbers",
+        "integration with AppFolio"
+      ],
+      "added_items": [],
+      "removed_items": [
+        "emergency protocol now"
+      ],
+      "reason": "Updated list: +0 added, -1 removed"
+    },
+    {
+      "field": "notes",
+      "type": "modified",
+      "old_value": null,
+      "new_value": "Client has cast iron drain lines that will need replacement in 30-40 years, high water pressure, and a stiff main shutoff valve that should be replaced. Scheduled maintenance starts April 1st, $600 per month for four visits per year, priority emergency response, and 24/7 emergency line.",
+      "reason": "Updated during onboarding"
+    }
+  ],
+  "spec_changes": [
+    {
+      "field": "system_prompt",
+      "type": "modified",
+      "details": "System prompt regenerated with updated account information"
+    },
+    {
+      "field": "version",
+      "type": "modified",
+      "details": "v1 → v2"
+    }
+  ]
+}

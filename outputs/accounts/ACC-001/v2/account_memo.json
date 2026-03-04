@@ -1,0 +1,84 @@
+{
+  "account_id": "ACC-001",
+  "company_name": "Swift Move Logistics",
+  "business_hours": {
+    "days": "Monday-Friday",
+    "start": "7:00 AM",
+    "end": "7:00 PM",
+    "timezone": "Central Time"
+  },
+  "office_address": "Pilsen, Chicago, IL",
+  "services_supported": [
+    "Medical equipment logistics"
+  ],
+  "emergency_definition": [],
+  "emergency_routing_rules": {
+    "who_to_call": [],
+    "fallback": null
+  },
+  "non_emergency_routing_rules": {
+    "action": "Take order details and relay to fleet",
+    "details": "Use Google Maps and a simple spreadsheet"
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": null,
+    "max_retries": null,
+    "failure_message": null
+  },
+  "integration_constraints": [
+    "Google Maps",
+    "Simple spreadsheet"
+  ],
+  "after_hours_flow_summary": "Take messages and have those calls logged",
+  "office_hours_flow_summary": "Answer calls professionally, take order details, and relay to fleet",
+  "questions_or_unknowns": [
+    "Geographic service area beyond 45 minutes drive from warehouse",
+    "What happens if no one answers after-hours calls"
+  ],
+  "notes": "David Park, 773-555-0234, 10 AM tomorrow",
+  "version": 2,
+  "business_hours_saturday": {
+    "days": "Saturday",
+    "start": null,
+    "end": null,
+    "timezone": "Central Time",
+    "voicemail_only": true
+  },
+  "emergency_contact_numbers": [
+    {
+      "name": "Angela",
+      "number": "555-123-4567",
+      "role": "Account Manager"
+    }
+  ],
+  "escalation_procedures": {
+    "initial_response_time": null,
+    "response_time_after_initial": null,
+    "response_time_after_second": null
+  },
+  "routing_rules": {
+    "office_hours": {
+      "action": "Answer calls professionally, take order details, and relay to fleet",
+      "details": "Use Google Maps and a simple spreadsheet"
+    },
+    "after_hours": {
+      "action": "Take messages and have those calls logged",
+      "details": "Email message to customer by 9 AM next business day"
+    }
+  },
+  "integration_requirements": {
+    "google_maps": {
+      "integration_type": "relay",
+      "details": "Relay routing info via phone or SMS to drivers"
+    }
+  },
+  "training_requirements": {
+    "training_type": "30-minute training session",
+    "training_details": "Call scripts, confirm procedures"
+  },
+  "quality_control": {
+    "call_recording": true,
+    "transcript": true,
+    "review_and_correct": true
+  }
+}

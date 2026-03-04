@@ -1,0 +1,179 @@
+{
+  "account_id": "ACC-003",
+  "company_name": "Guardian Electrical",
+  "generated_at": "2026-03-04T19:44:19.039Z",
+  "from_version": "v1",
+  "to_version": "v2",
+  "summary": "11 memo field(s) changed, 8 spec field(s) updated",
+  "memo_changes": [
+    {
+      "field": "business_hours.timezone",
+      "type": "modified",
+      "old_value": null,
+      "new_value": "Central Time (US & Canada)",
+      "reason": "Updated during onboarding"
+    },
+    {
+      "field": "services_supported",
+      "type": "modified",
+      "old_value": [
+        "Circuit breaker issues",
+        "Electrical maintenance",
+        "Generator hookups",
+        "Networking cable modification",
+        "Outlet replacement"
+      ],
+      "new_value": [
+        "Circuit breaker issues",
+        "Electrical maintenance",
+        "Generator hookups",
+        "Networking cable modification",
+        "Outlet replacement",
+        "UPS system upgrade"
+      ],
+      "added_items": [
+        "UPS system upgrade"
+      ],
+      "removed_items": [],
+      "reason": "Updated list: +1 added, -0 removed"
+    },
+    {
+      "field": "emergency_routing_rules.who_to_call",
+      "type": "modified",
+      "old_value": [
+        {
+          "name": "Robert Torres",
+          "phone_number": null
+        }
+      ],
+      "new_value": [
+        {
+          "name": "Robert Torres",
+          "phone_number": "+1-512-123-4567"
+        }
+      ],
+      "added_items": [
+        {
+          "name": "Robert Torres",
+          "phone_number": "+1-512-123-4567"
+        }
+      ],
+      "removed_items": [
+        {
+          "name": "Robert Torres",
+          "phone_number": null
+        }
+      ],
+      "reason": "Updated list: +1 added, -1 removed"
+    },
+    {
+      "field": "non_emergency_routing_rules.details",
+      "type": "modified",
+      "old_value": "Robert will come out himself, probably tomorrow afternoon",
+      "new_value": "Robert will come out himself, probably within 1-2 business days",
+      "reason": "Updated during onboarding"
+    },
+    {
+      "field": "call_transfer_rules.timeout_seconds",
+      "type": "modified",
+      "old_value": null,
+      "new_value": 30,
+      "reason": "Updated during onboarding"
+    },
+    {
+      "field": "call_transfer_rules.max_retries",
+      "type": "modified",
+      "old_value": null,
+      "new_value": 3,
+      "reason": "Updated during onboarding"
+    },
+    {
+      "field": "call_transfer_rules.failure_message",
+      "type": "modified",
+      "old_value": null,
+      "new_value": "Unable to reach Guardian Electrical. Please try again later.",
+      "reason": "Updated during onboarding"
+    },
+    {
+      "field": "after_hours_flow_summary",
+      "type": "modified",
+      "old_value": "2-3 hours response time, Robert can be there in 1 hour if needed",
+      "new_value": "2-3 hours response time, Robert can be there in 1 hour if needed, capped at $150",
+      "reason": "Updated during onboarding"
+    },
+    {
+      "field": "office_hours_flow_summary",
+      "type": "modified",
+      "old_value": "1-2 hours response time",
+      "new_value": "1-2 hours response time, capped at $150 for emergency service calls",
+      "reason": "Updated during onboarding"
+    },
+    {
+      "field": "questions_or_unknowns",
+      "type": "modified",
+      "old_value": [
+        "Integration with other systems",
+        "Liability coverage details",
+        "Timezone"
+      ],
+      "new_value": [
+        "Integration with other systems",
+        "Liability coverage details"
+      ],
+      "added_items": [],
+      "removed_items": [
+        "Timezone"
+      ],
+      "reason": "Updated list: +0 added, -1 removed"
+    },
+    {
+      "field": "notes",
+      "type": "modified",
+      "old_value": null,
+      "new_value": "Retainer agreement and terms will be emailed to Lisa for signature. First maintenance visit scheduled for early April.",
+      "reason": "Updated during onboarding"
+    }
+  ],
+  "spec_changes": [
+    {
+      "field": "system_prompt",
+      "type": "modified",
+      "details": "System prompt regenerated with updated account information"
+    },
+    {
+      "field": "key_variables.timezone",
+      "type": "modified",
+      "details": "Changed from \"EST\" to \"Central Time (US & Canada)\""
+    },
+    {
+      "field": "key_variables.business_hours",
+      "type": "modified",
+      "details": "Changed from \"Monday-Friday, 8:00 AM - 5:00 PM \" to \"Monday-Friday, 8:00 AM - 5:00 PM Central Time (US & Canada)\""
+    },
+    {
+      "field": "key_variables.emergency_contacts",
+      "type": "modified",
+      "details": "Changed from \"[1 items]\" to \"[1 items]\""
+    },
+    {
+      "field": "key_variables.services",
+      "type": "modified",
+      "details": "Changed from \"[5 items]\" to \"[6 items]\""
+    },
+    {
+      "field": "call_transfer_protocol.contacts",
+      "type": "modified",
+      "details": "Emergency contacts updated"
+    },
+    {
+      "field": "fallback_protocol",
+      "type": "modified",
+      "details": "Fallback protocol updated with new information"
+    },
+    {
+      "field": "version",
+      "type": "modified",
+      "details": "v1 → v2"
+    }
+  ]
+}

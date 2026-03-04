@@ -1,0 +1,49 @@
+{
+  "account_id": "ACC-005",
+  "company_name": "Perfect Temp HVAC and Refrigeration",
+  "business_hours": {
+    "days": "Monday-Friday",
+    "start": "8:00 AM",
+    "end": "5:00 PM",
+    "timezone": "California time"
+  },
+  "office_address": "1450 Mission Street, San Francisco",
+  "services_supported": [
+    "Commercial refrigeration support",
+    "Emergency response",
+    "Maintenance"
+  ],
+  "emergency_definition": [
+    "Display case failure if it exposes product to unsafe temperature",
+    "Generator or compressor failure",
+    "Walk-in failure"
+  ],
+  "emergency_routing_rules": {
+    "who_to_call": [
+      {
+        "name": "James Washington",
+        "phone": "415-555-0456"
+      }
+    ],
+    "fallback": "Partner for generator maintenance"
+  },
+  "non_emergency_routing_rules": {
+    "action": "Schedule a site visit",
+    "details": "Draft a maintenance plan with cost projections"
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": 30,
+    "max_retries": null,
+    "failure_message": null
+  },
+  "integration_constraints": [],
+  "after_hours_flow_summary": "Available for critical calls, 30 minutes response time",
+  "office_hours_flow_summary": "Available Monday-Friday, 1-2 hours response time",
+  "questions_or_unknowns": [
+    "Geographic coverage beyond Bay Area proper",
+    "Parts and labor costs beyond diagnosis",
+    "Service call cost for non-maintenance customers"
+  ],
+  "notes": "Carmen Rodriguez, 415-555-0456, scheduled site visit for 11 AM Tuesday at 1450 Mission Street",
+  "version": 2
+}

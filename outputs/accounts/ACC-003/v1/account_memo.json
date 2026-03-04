@@ -1,0 +1,50 @@
+{
+  "account_id": "ACC-003",
+  "company_name": "Guardian Electrical",
+  "business_hours": {
+    "days": "Monday-Friday",
+    "start": "8:00 AM",
+    "end": "5:00 PM",
+    "timezone": null
+  },
+  "office_address": "3200 East Riverside Drive, Austin, Texas 78741",
+  "services_supported": [
+    "Electrical maintenance",
+    "Circuit breaker issues",
+    "Outlet replacement",
+    "Networking cable modification",
+    "Generator hookups"
+  ],
+  "emergency_definition": [
+    "Critical power issues"
+  ],
+  "emergency_routing_rules": {
+    "who_to_call": [
+      {
+        "name": "Robert Torres",
+        "phone_number": null
+      }
+    ],
+    "fallback": "2-3 hours response time after hours"
+  },
+  "non_emergency_routing_rules": {
+    "action": "Schedule an initial site visit",
+    "details": "Robert will come out himself, probably tomorrow afternoon"
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": null,
+    "max_retries": null,
+    "failure_message": null
+  },
+  "integration_constraints": [
+    "Email work reports after each visit"
+  ],
+  "after_hours_flow_summary": "2-3 hours response time, Robert can be there in 1 hour if needed",
+  "office_hours_flow_summary": "1-2 hours response time",
+  "questions_or_unknowns": [
+    "Timezone",
+    "Liability coverage details",
+    "Integration with other systems"
+  ],
+  "notes": null
+}

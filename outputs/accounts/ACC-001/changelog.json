@@ -1,0 +1,103 @@
+{
+  "account_id": "ACC-001",
+  "company_name": "Swift Move Logistics",
+  "generated_at": "2026-03-04T19:44:31.306Z",
+  "from_version": "v1",
+  "to_version": "v2",
+  "summary": "7 memo field(s) changed, 1 spec field(s) updated",
+  "memo_changes": [
+    {
+      "field": "business_hours_saturday",
+      "type": "added",
+      "old_value": null,
+      "new_value": {
+        "days": "Saturday",
+        "start": null,
+        "end": null,
+        "timezone": "Central Time",
+        "voicemail_only": true
+      },
+      "reason": "Added during onboarding"
+    },
+    {
+      "field": "emergency_contact_numbers",
+      "type": "added",
+      "old_value": null,
+      "new_value": [
+        {
+          "name": "Angela",
+          "number": "555-123-4567",
+          "role": "Account Manager"
+        }
+      ],
+      "reason": "Added during onboarding"
+    },
+    {
+      "field": "escalation_procedures",
+      "type": "added",
+      "old_value": null,
+      "new_value": {
+        "initial_response_time": null,
+        "response_time_after_initial": null,
+        "response_time_after_second": null
+      },
+      "reason": "Added during onboarding"
+    },
+    {
+      "field": "routing_rules",
+      "type": "added",
+      "old_value": null,
+      "new_value": {
+        "office_hours": {
+          "action": "Answer calls professionally, take order details, and relay to fleet",
+          "details": "Use Google Maps and a simple spreadsheet"
+        },
+        "after_hours": {
+          "action": "Take messages and have those calls logged",
+          "details": "Email message to customer by 9 AM next business day"
+        }
+      },
+      "reason": "Added during onboarding"
+    },
+    {
+      "field": "integration_requirements",
+      "type": "added",
+      "old_value": null,
+      "new_value": {
+        "google_maps": {
+          "integration_type": "relay",
+          "details": "Relay routing info via phone or SMS to drivers"
+        }
+      },
+      "reason": "Added during onboarding"
+    },
+    {
+      "field": "training_requirements",
+      "type": "added",
+      "old_value": null,
+      "new_value": {
+        "training_type": "30-minute training session",
+        "training_details": "Call scripts, confirm procedures"
+      },
+      "reason": "Added during onboarding"
+    },
+    {
+      "field": "quality_control",
+      "type": "added",
+      "old_value": null,
+      "new_value": {
+        "call_recording": true,
+        "transcript": true,
+        "review_and_correct": true
+      },
+      "reason": "Added during onboarding"
+    }
+  ],
+  "spec_changes": [
+    {
+      "field": "version",
+      "type": "modified",
+      "details": "v1 → v2"
+    }
+  ]
+}

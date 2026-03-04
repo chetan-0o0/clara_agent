@@ -1,0 +1,51 @@
+{
+  "account_id": "ACC-003",
+  "company_name": "Guardian Electrical",
+  "business_hours": {
+    "days": "Monday-Friday",
+    "start": "8:00 AM",
+    "end": "5:00 PM",
+    "timezone": "Central Time (US & Canada)"
+  },
+  "office_address": "3200 East Riverside Drive, Austin, Texas 78741",
+  "services_supported": [
+    "Circuit breaker issues",
+    "Electrical maintenance",
+    "Generator hookups",
+    "Networking cable modification",
+    "Outlet replacement",
+    "UPS system upgrade"
+  ],
+  "emergency_definition": [
+    "Critical power issues"
+  ],
+  "emergency_routing_rules": {
+    "who_to_call": [
+      {
+        "name": "Robert Torres",
+        "phone_number": "+1-512-123-4567"
+      }
+    ],
+    "fallback": "2-3 hours response time after hours"
+  },
+  "non_emergency_routing_rules": {
+    "action": "Schedule an initial site visit",
+    "details": "Robert will come out himself, probably within 1-2 business days"
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": 30,
+    "max_retries": 3,
+    "failure_message": "Unable to reach Guardian Electrical. Please try again later."
+  },
+  "integration_constraints": [
+    "Email work reports after each visit"
+  ],
+  "after_hours_flow_summary": "2-3 hours response time, Robert can be there in 1 hour if needed, capped at $150",
+  "office_hours_flow_summary": "1-2 hours response time, capped at $150 for emergency service calls",
+  "questions_or_unknowns": [
+    "Integration with other systems",
+    "Liability coverage details"
+  ],
+  "notes": "Retainer agreement and terms will be emailed to Lisa for signature. First maintenance visit scheduled for early April.",
+  "version": 2
+}

@@ -1,0 +1,80 @@
+{
+  "account_id": "ACC-005",
+  "company_name": "Perfect Temp HVAC and Refrigeration",
+  "generated_at": "2026-03-04T19:44:48.209Z",
+  "from_version": "v1",
+  "to_version": "v2",
+  "summary": "3 memo field(s) changed, 5 spec field(s) updated",
+  "memo_changes": [
+    {
+      "field": "emergency_routing_rules.who_to_call",
+      "type": "modified",
+      "old_value": [
+        {
+          "name": "James Washington",
+          "phone": null
+        }
+      ],
+      "new_value": [
+        {
+          "name": "James Washington",
+          "phone": "415-555-0456"
+        }
+      ],
+      "added_items": [
+        {
+          "name": "James Washington",
+          "phone": "415-555-0456"
+        }
+      ],
+      "removed_items": [
+        {
+          "name": "James Washington",
+          "phone": null
+        }
+      ],
+      "reason": "Updated list: +1 added, -1 removed"
+    },
+    {
+      "field": "call_transfer_rules.timeout_seconds",
+      "type": "modified",
+      "old_value": null,
+      "new_value": 30,
+      "reason": "Updated during onboarding"
+    },
+    {
+      "field": "after_hours_flow_summary",
+      "type": "modified",
+      "old_value": "Available for critical calls, 3-4 hours response time",
+      "new_value": "Available for critical calls, 30 minutes response time",
+      "reason": "Updated during onboarding"
+    }
+  ],
+  "spec_changes": [
+    {
+      "field": "system_prompt",
+      "type": "modified",
+      "details": "System prompt regenerated with updated account information"
+    },
+    {
+      "field": "key_variables.emergency_contacts",
+      "type": "modified",
+      "details": "Changed from \"[1 items]\" to \"[1 items]\""
+    },
+    {
+      "field": "key_variables.services",
+      "type": "modified",
+      "details": "Changed from \"[3 items]\" to \"[3 items]\""
+    },
+    {
+      "field": "call_transfer_protocol.contacts",
+      "type": "modified",
+      "details": "Emergency contacts updated"
+    },
+    {
+      "field": "version",
+      "type": "modified",
+      "details": "v1 → v2"
+    }
+  ]
+}

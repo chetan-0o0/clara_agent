@@ -1,0 +1,43 @@
+{
+  "account_id": "ACC-002",
+  "company_name": "FreshAir Plumbing Solutions",
+  "business_hours": {
+    "days": "Monday-Friday",
+    "start": "7:00 AM",
+    "end": "5:00 PM",
+    "timezone": "Mountain Time"
+  },
+  "office_address": null,
+  "services_supported": [
+    "plumbing"
+  ],
+  "emergency_definition": [
+    "pipes, toilets, drains—all kinds of issues"
+  ],
+  "emergency_routing_rules": {
+    "who_to_call": [
+      "on-call technician"
+    ],
+    "fallback": null
+  },
+  "non_emergency_routing_rules": {
+    "action": "calls go to dispatch",
+    "details": "during business hours, Monday-Friday 7 AM to 5 PM Mountain Time"
+  },
+  "call_transfer_rules": {
+    "timeout_seconds": null,
+    "max_retries": null,
+    "failure_message": null
+  },
+  "integration_constraints": [
+    "AppFolio"
+  ],
+  "after_hours_flow_summary": "calls go to on-call technician, $125 service call, parts and labor at standard rates, quoted before work starts",
+  "office_hours_flow_summary": "calls go to dispatch",
+  "questions_or_unknowns": [
+    "geographic limits for specialty plumbers",
+    "integration with AppFolio"
+  ],
+  "notes": "Client has cast iron drain lines that will need replacement in 30-40 years, high water pressure, and a stiff main shutoff valve that should be replaced. Scheduled maintenance starts April 1st, $600 per month for four visits per year, priority emergency response, and 24/7 emergency line.",
+  "version": 2
+}

@@ -1,0 +1,537 @@
+{
+  "tasks": [
+    {
+      "id": "TASK-001",
+      "account_id": "ACC-APEX",
+      "company_name": "Apex Heating & Cooling",
+      "status": "v2_complete",
+      "created_at": "2026-03-04T12:21:47.333Z",
+      "updated_at": "2026-03-04T13:04:24.894Z",
+      "assignee": "automation",
+      "priority": "medium",
+      "history": [
+        {
+          "action": "demo_processed",
+          "timestamp": "2026-03-04T12:21:47.333Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T12:24:08.798Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T13:04:24.894Z"
+        }
+      ]
+    },
+    {
+      "id": "TASK-002",
+      "account_id": "ACC-BLPS",
+      "company_name": "BlueLine Plumbing Services",
+      "status": "v1_complete",
+      "created_at": "2026-03-04T12:21:51.631Z",
+      "updated_at": "2026-03-04T13:03:48.153Z",
+      "assignee": "automation",
+      "priority": "medium",
+      "history": [
+        {
+          "action": "demo_processed",
+          "timestamp": "2026-03-04T12:21:51.631Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T13:03:48.153Z"
+        }
+      ]
+    },
+    {
+      "id": "TASK-003",
+      "account_id": "ACC-EVER",
+      "company_name": "Evergreen Electrical Solutions",
+      "status": "v2_complete",
+      "created_at": "2026-03-04T12:21:55.959Z",
+      "updated_at": "2026-03-04T13:04:41.488Z",
+      "assignee": "automation",
+      "priority": "medium",
+      "history": [
+        {
+          "action": "demo_processed",
+          "timestamp": "2026-03-04T12:21:55.959Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T13:04:41.488Z"
+        }
+      ]
+    },
+    {
+      "id": "TASK-004",
+      "account_id": "ACC-RRWD",
+      "company_name": "Reliable Restoration & Water Damage",
+      "status": "v1_complete",
+      "created_at": "2026-03-04T12:22:00.042Z",
+      "updated_at": "2026-03-04T12:22:00.042Z",
+      "assignee": "automation",
+      "priority": "medium",
+      "history": [
+        {
+          "action": "demo_processed",
+          "timestamp": "2026-03-04T12:22:00.042Z"
+        }
+      ]
+    },
+    {
+      "id": "TASK-005",
+      "account_id": "ACC-SUMM",
+      "company_name": "Summit Mechanical Services",
+      "status": "v2_complete",
+      "created_at": "2026-03-04T12:22:04.462Z",
+      "updated_at": "2026-03-04T13:04:59.094Z",
+      "assignee": "automation",
+      "priority": "medium",
+      "history": [
+        {
+          "action": "demo_processed",
+          "timestamp": "2026-03-04T12:22:04.462Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T13:04:09.406Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T13:04:59.094Z"
+        }
+      ]
+    },
+    {
+      "id": "TASK-006",
+      "account_id": "ACC-SUNR",
+      "company_name": "Sunrise HVAC Services",
+      "status": "v2_complete",
+      "created_at": "2026-03-04T12:50:10.673Z",
+      "updated_at": "2026-03-04T19:25:34.364Z",
+      "assignee": "automation",
+      "priority": "medium",
+      "history": [
+        {
+          "action": "demo_processed",
+          "timestamp": "2026-03-04T12:50:10.673Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T14:50:44.170Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T14:51:11.726Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T15:15:16.714Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T15:16:15.810Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T17:00:21.592Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T17:00:50.693Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T19:24:47.654Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T19:25:34.365Z"
+        }
+      ]
+    },
+    {
+      "id": "TASK-007",
+      "account_id": "ACC-APX",
+      "company_name": "Apex Heating & Cooling",
+      "status": "v1_complete",
+      "created_at": "2026-03-04T13:03:41.091Z",
+      "updated_at": "2026-03-04T13:03:41.091Z",
+      "assignee": "automation",
+      "priority": "medium",
+      "history": [
+        {
+          "action": "demo_processed",
+          "timestamp": "2026-03-04T13:03:41.091Z"
+        }
+      ]
+    },
+    {
+      "id": "TASK-008",
+      "account_id": "ACC-EVERGREEN",
+      "company_name": "Evergreen Electrical Solutions",
+      "status": "v1_complete",
+      "created_at": "2026-03-04T13:03:55.197Z",
+      "updated_at": "2026-03-04T13:03:55.197Z",
+      "assignee": "automation",
+      "priority": "medium",
+      "history": [
+        {
+          "action": "demo_processed",
+          "timestamp": "2026-03-04T13:03:55.197Z"
+        }
+      ]
+    },
+    {
+      "id": "TASK-009",
+      "account_id": "ACC-RELIABLE",
+      "company_name": "Reliable Restoration & Water Damage",
+      "status": "v1_complete",
+      "created_at": "2026-03-04T13:04:02.361Z",
+      "updated_at": "2026-03-04T13:04:02.361Z",
+      "assignee": "automation",
+      "priority": "medium",
+      "history": [
+        {
+          "action": "demo_processed",
+          "timestamp": "2026-03-04T13:04:02.361Z"
+        }
+      ]
+    },
+    {
+      "id": "TASK-010",
+      "account_id": "ACC-FRESH",
+      "company_name": "FreshAir Plumbing Solutions",
+      "status": "v2_complete",
+      "created_at": "2026-03-04T14:50:48.357Z",
+      "updated_at": "2026-03-04T17:00:54.805Z",
+      "assignee": "automation",
+      "priority": "medium",
+      "history": [
+        {
+          "action": "demo_processed",
+          "timestamp": "2026-03-04T14:50:48.357Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T14:51:23.103Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T17:00:25.796Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T17:00:54.805Z"
+        }
+      ]
+    },
+    {
+      "id": "TASK-011",
+      "account_id": "ACC-GELE",
+      "company_name": "Guardian Electrical",
+      "status": "v2_complete",
+      "created_at": "2026-03-04T14:50:52.550Z",
+      "updated_at": "2026-03-04T18:35:48.833Z",
+      "assignee": "automation",
+      "priority": "medium",
+      "history": [
+        {
+          "action": "demo_processed",
+          "timestamp": "2026-03-04T14:50:52.550Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T14:51:36.477Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T17:00:29.993Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T17:01:01.647Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T18:34:06.343Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T18:34:59.937Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T18:35:41.900Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T18:35:48.833Z"
+        }
+      ]
+    },
+    {
+      "id": "TASK-012",
+      "account_id": "ACC-SWFT",
+      "company_name": "Swift Move Logistics",
+      "status": "v1_complete",
+      "created_at": "2026-03-04T14:50:56.922Z",
+      "updated_at": "2026-03-04T19:25:19.974Z",
+      "assignee": "automation",
+      "priority": "medium",
+      "history": [
+        {
+          "action": "demo_processed",
+          "timestamp": "2026-03-04T14:50:56.922Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T19:25:19.974Z"
+        }
+      ]
+    },
+    {
+      "id": "TASK-013",
+      "account_id": "ACC-005",
+      "company_name": "Perfect Temp HVAC and Refrigeration",
+      "status": "v2_complete",
+      "created_at": "2026-03-04T14:51:04.308Z",
+      "updated_at": "2026-03-04T19:44:48.277Z",
+      "assignee": "automation",
+      "priority": "medium",
+      "history": [
+        {
+          "action": "demo_processed",
+          "timestamp": "2026-03-04T14:51:04.308Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T14:52:03.592Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T15:16:08.781Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T15:17:00.817Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T17:00:43.714Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T17:01:18.513Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T17:18:39.175Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T19:25:27.046Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T19:26:13.617Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T19:43:43.670Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T19:44:48.278Z"
+        }
+      ]
+    },
+    {
+      "id": "TASK-014",
+      "account_id": "ACC-002",
+      "company_name": "FreshAir Plumbing Solutions",
+      "status": "v2_complete",
+      "created_at": "2026-03-04T15:15:31.626Z",
+      "updated_at": "2026-03-04T19:44:11.594Z",
+      "assignee": "automation",
+      "priority": "medium",
+      "history": [
+        {
+          "action": "demo_processed",
+          "timestamp": "2026-03-04T15:15:31.626Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T15:16:22.660Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T17:18:12.535Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T19:24:54.831Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T19:25:41.434Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T19:40:46.683Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T19:40:53.944Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T19:43:17.832Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T19:44:11.594Z"
+        }
+      ]
+    },
+    {
+      "id": "TASK-015",
+      "account_id": "ACC-003",
+      "company_name": "Guardian Electrical",
+      "status": "v2_complete",
+      "created_at": "2026-03-04T15:15:44.793Z",
+      "updated_at": "2026-03-04T19:44:19.095Z",
+      "assignee": "automation",
+      "priority": "medium",
+      "history": [
+        {
+          "action": "demo_processed",
+          "timestamp": "2026-03-04T15:15:44.793Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T15:16:31.761Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T17:18:19.324Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T19:25:02.328Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T19:25:48.541Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T19:43:25.037Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T19:44:19.095Z"
+        }
+      ]
+    },
+    {
+      "id": "TASK-016",
+      "account_id": "ACC-001",
+      "company_name": "Swift Move Logistics",
+      "status": "v2_complete",
+      "created_at": "2026-03-04T15:16:00.533Z",
+      "updated_at": "2026-03-04T19:44:31.310Z",
+      "assignee": "automation",
+      "priority": "medium",
+      "history": [
+        {
+          "action": "demo_processed",
+          "timestamp": "2026-03-04T15:16:00.533Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T15:16:45.317Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T17:00:36.830Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T17:01:08.456Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T17:18:05.738Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T17:18:26.069Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T19:43:10.520Z"
+        },
+        {
+          "action": "v1_created",
+          "timestamp": "2026-03-04T19:43:32.510Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T19:44:01.523Z"
+        },
+        {
+          "action": "v2_complete",
+          "notes": "Onboarding batch processed",
+          "timestamp": "2026-03-04T19:44:31.310Z"
+        }
+      ]
+    },
+    {
+      "id": "TASK-017",
+      "account_id": "ACC-GMPW",
+      "company_name": "G&M Pressure washing",
+      "status": "v1_complete",
+      "created_at": "2026-03-04T17:17:58.934Z",
+      "updated_at": "2026-03-04T17:17:58.934Z",
+      "assignee": "automation",
+      "priority": "medium",
+      "history": [
+        {
+          "action": "demo_processed",
+          "timestamp": "2026-03-04T17:17:58.934Z"
+        }
+      ]
+    }
+  ]
+}
