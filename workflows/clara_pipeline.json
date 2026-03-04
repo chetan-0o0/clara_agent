@@ -1,0 +1,289 @@
+{
+    "name": "Clara Answers Pipeline",
+    "nodes": [
+        {
+            "parameters": {},
+            "id": "start-node",
+            "name": "Manual Trigger",
+            "type": "n8n-nodes-base.manualTrigger",
+            "typeVersion": 1,
+            "position": [
+                240,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "url": "http://clara-app:3000/api/transcripts",
+                "options": {}
+            },
+            "id": "list-transcripts",
+            "name": "List Transcripts",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4,
+            "position": [
+                460,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "conditions": {
+                    "boolean": [
+                        {
+                            "value1": "={{ $json.success }}",
+                            "value2": true
+                        }
+                    ]
+                }
+            },
+            "id": "check-success",
+            "name": "Check Success",
+            "type": "n8n-nodes-base.if",
+            "typeVersion": 1,
+            "position": [
+                680,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "functionCode": "const transcripts = $input.first().json.transcripts;\nconst demoFiles = transcripts.filter(t => t.type === 'demo').sort((a,b) => a.filename.localeCompare(b.filename));\nconst onboardingFiles = transcripts.filter(t => t.type === 'onboarding').sort((a,b) => a.filename.localeCompare(b.filename));\n\nreturn [{ json: { demoFiles, onboardingFiles, totalDemo: demoFiles.length, totalOnboarding: onboardingFiles.length } }];"
+            },
+            "id": "split-files",
+            "name": "Classify Files",
+            "type": "n8n-nodes-base.code",
+            "typeVersion": 2,
+            "position": [
+                900,
+                200
+            ]
+        },
+        {
+            "parameters": {
+                "url": "http://clara-app:3000/api/batch/run",
+                "method": "POST",
+                "sendBody": true,
+                "bodyParameters": {
+                    "parameters": []
+                },
+                "options": {
+                    "timeout": 300000
+                }
+            },
+            "id": "run-batch",
+            "name": "Run Full Batch Pipeline",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4,
+            "position": [
+                1120,
+                200
+            ]
+        },
+        {
+            "parameters": {
+                "conditions": {
+                    "boolean": [
+                        {
+                            "value1": "={{ $json.success }}",
+                            "value2": true
+                        }
+                    ]
+                }
+            },
+            "id": "check-batch-result",
+            "name": "Batch Successful?",
+            "type": "n8n-nodes-base.if",
+            "typeVersion": 1,
+            "position": [
+                1340,
+                200
+            ]
+        },
+        {
+            "parameters": {
+                "functionCode": "const result = $input.first().json;\nconst summary = result.summary;\nconst results = result.results;\n\nconst output = {\n  status: 'COMPLETE',\n  total_demos_processed: summary.total_demos,\n  total_onboardings_processed: summary.total_onboardings,\n  total_errors: summary.total_errors,\n  accounts: results.demos.map(d => ({\n    account_id: d.account_id,\n    company: d.company,\n    demo_status: d.status,\n    onboarding_status: (results.onboardings.find(o => o.account_id === d.account_id) || {}).status || 'pending'\n  })),\n  errors: results.errors\n};\n\nreturn [{ json: output }];"
+            },
+            "id": "format-summary",
+            "name": "Format Summary",
+            "type": "n8n-nodes-base.code",
+            "typeVersion": 2,
+            "position": [
+                1560,
+                100
+            ]
+        },
+        {
+            "parameters": {
+                "functionCode": "return [{ json: { status: 'FAILED', error: $input.first().json.error || 'Unknown error during batch processing' } }];"
+            },
+            "id": "handle-error",
+            "name": "Handle Error",
+            "type": "n8n-nodes-base.code",
+            "typeVersion": 2,
+            "position": [
+                1560,
+                300
+            ]
+        },
+        {
+            "parameters": {
+                "functionCode": "return [{ json: { status: 'FAILED', error: 'Could not retrieve transcript list from Clara app' } }];"
+            },
+            "id": "transcript-error",
+            "name": "Transcript List Error",
+            "type": "n8n-nodes-base.code",
+            "typeVersion": 2,
+            "position": [
+                900,
+                400
+            ]
+        },
+        {
+            "parameters": {
+                "url": "http://clara-app:3000/api/accounts",
+                "options": {}
+            },
+            "id": "get-results",
+            "name": "Get Final Accounts",
+            "type": "n8n-nodes-base.httpRequest",
+            "typeVersion": 4,
+            "position": [
+                1780,
+                100
+            ]
+        },
+        {
+            "parameters": {},
+            "id": "end-success",
+            "name": "Pipeline Complete",
+            "type": "n8n-nodes-base.noOp",
+            "typeVersion": 1,
+            "position": [
+                2000,
+                100
+            ]
+        }
+    ],
+    "connections": {
+        "Manual Trigger": {
+            "main": [
+                [
+                    {
+                        "node": "List Transcripts",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "List Transcripts": {
+            "main": [
+                [
+                    {
+                        "node": "Check Success",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Check Success": {
+            "main": [
+                [
+                    {
+                        "node": "Classify Files",
+                        "type": "main",
+                        "index": 0
+                    }
+                ],
+                [
+                    {
+                        "node": "Transcript List Error",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Classify Files": {
+            "main": [
+                [
+                    {
+                        "node": "Run Full Batch Pipeline",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Run Full Batch Pipeline": {
+            "main": [
+                [
+                    {
+                        "node": "Batch Successful?",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Batch Successful?": {
+            "main": [
+                [
+                    {
+                        "node": "Format Summary",
+                        "type": "main",
+                        "index": 0
+                    }
+                ],
+                [
+                    {
+                        "node": "Handle Error",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Format Summary": {
+            "main": [
+                [
+                    {
+                        "node": "Get Final Accounts",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        },
+        "Get Final Accounts": {
+            "main": [
+                [
+                    {
+                        "node": "Pipeline Complete",
+                        "type": "main",
+                        "index": 0
+                    }
+                ]
+            ]
+        }
+    },
+    "settings": {
+        "executionOrder": "v1"
+    },
+    "meta": {
+        "instanceId": "clara-answers-pipeline"
+    },
+    "tags": [
+        {
+            "name": "clara-answers"
+        },
+        {
+            "name": "automation"
+        },
+        {
+            "name": "retell-ai"
+        }
+    ]
+}

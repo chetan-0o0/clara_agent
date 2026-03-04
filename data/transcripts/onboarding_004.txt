@@ -1,0 +1,48 @@
+ONBOARDING CALL TRANSCRIPT - Swift Move Logistics
+Account: account_004
+Date: 2026-02-26
+Duration: 15 minutes
+
+[Beginning of call]
+
+ACCOUNT_MANAGER (Angela): Hi David! Angela from Swift Move. Following up from Michael's initial call.
+
+CALLER (David): Hey Angela! Thanks for calling.
+
+ANGELA: So I reviewed the notes from your demo call. You're in Chicago, 5-truck medical equipment logistics. You want us to handle the call center dispatch coordination.
+
+DAVID: Right. We're getting too many inbound calls and my ops manager is overwhelmed.
+
+ANGELA: Understood. Here's what I'm thinking. You'd use our dispatch service during business hours—7 AM to 7 PM Central, Monday-Friday. Cost is $15 per call answered plus $0.30 per minute if we're adding to your system. So roughly $200-350 per month depending on volume.
+
+DAVID: Okay. What about Saturdays? You mentioned occasional Saturday availability?
+
+ANGELA: Right, for Saturday you'd do voicemail-only. We take the message, transcribe it, email it to you by 9 AM Sunday. That's $50 per month for unlimited calls.
+
+DAVID: So total is what, $250-400 per month?
+
+ANGELA: Yes, at typical volume that I'd estimate for you. But first month is a trial. We'll track actual calls and cost, then adjust if needed.
+
+DAVID: How does the handoff work? Like, technician in training or something?
+
+ANGELA: No, our team gets training on your operation, understands what medical equipment you're moving, how to take orders. We just relay instructions to your drivers clearly and professionally.
+
+DAVID: And you integrate with Google Maps?
+
+ANGELA: Not integrated, but we can relay routing info via phone or SMS to your drivers. You handle the optimization in Maps.
+
+DAVID: That works. When can we start?
+
+ANGELA: Week of March 3rd. We'll do a 30-minute training session with you and your ops manager—I'll walk through call scripts, confirm procedures. Then we go live.
+
+DAVID: Perfect. What happens if there's a mistake in the handoff?
+
+ANGELA: We track all calls—audio recordings, transcripts. If there's an issue, we review and correct. Mistakes happen, but we're very careful. All calls are quality-checked.
+
+DAVID: Okay, I'm in. What's next?
+
+ANGELA: I'll email you a service agreement today. You review, sign, send back. Then we schedule your training call.
+
+DAVID: Sounds good, Angela.
+
+[End of call]

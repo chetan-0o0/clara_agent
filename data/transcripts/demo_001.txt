@@ -1,0 +1,94 @@
+DEMO CALL TRANSCRIPT - Sunrise HVAC Services
+Account: account_001
+Date: 2026-02-15
+Duration: 23 minutes
+
+[Beginning of call]
+
+AUTOMATED SYSTEM: Thank you for calling Sunrise HVAC Services. This call may be recorded for quality assurance.
+
+CALLER: Hi, yes, hello?
+
+DAVE HERNANDEZ (Owner): Hey there! This is Dave from Sunrise HVAC. Thanks for calling. What can I do for you?
+
+CALLER: Hi Dave, I'm interested in your services. We're looking for a new HVAC contractor for our office building in Phoenix.
+
+DAVE: Great! Welcome. So you're in Phoenix—perfect, that's our main service area. Let me ask you a few questions to understand what you need.
+
+CALLER: Sure.
+
+DAVE: First off, what's your company name?
+
+CALLER: Clean Start Commercial Cleaning. We operate out of Phoenix.
+
+DAVE: Clean Start Cleaning, got it. How many locations do you have?
+
+CALLER: Just one main office at 2100 South 24th Street, Phoenix, AZ 85034.
+
+DAVE: Perfect. Now, in terms of your HVAC needs—are you looking for regular maintenance, emergency service, or both?
+
+CALLER: Both, definitely. We have a large warehouse with lots of equipment that gets hot. We need regular maintenance and if something breaks, we need it fixed fast.
+
+DAVE: Smart. What are your business hours?
+
+CALLER: We're open Monday through Friday, 6 AM to 6 PM. We're closed weekends.
+
+DAVE: Monday to Friday, 6 AM to 6 PM. Got it. Which timezone are you in?
+
+CALLER: Mountain Standard Time—MST. Arizona, so no daylight savings.
+
+DAVE: Perfect. And what's your main concern—cooling, heating, or both?
+
+CALLER: Mainly cooling. Arizona summers can be brutal. We need reliable air conditioning.
+
+DAVE: I hear you. Now, if there's an emergency outside business hours—say, midnight on a Saturday and your system goes down—what would be your first preference? Do you want to talk to someone immediately, or would you prefer to leave a message and get called back?
+
+CALLER: We'd prefer to have someone we can reach immediately. We have perishable inventory, so a complete AC failure is a real problem.
+
+DAVE: Understood. That's exactly why we offer 24/7 emergency dispatch. During business hours, you'd call this number and reach our dispatch team. After hours, you'd get our on-call technician. The on-call person is Dave—that's me, or my operations manager Linda Chu.
+
+CALLER: Great. So I get your personal numbers?
+
+DAVE: You'll get the dispatch number and the after-hours emergency line. That goes to us, so you'll always reach a real person. No automated runaround.
+
+CALLER: Perfect. How fast can you respond to an emergency?
+
+DAVE: We aim for 30 minutes in Phoenix proper, up to 45 minutes in the far suburbs. For a freezer or AC failure in summer, we mobilize immediately—technician can be on the road in 10 minutes.
+
+CALLER: And your rates?
+
+DAVE: Service call is $85. That covers diagnosis. If we fix it same-day, there's no additional trip charge. Parts and labor are separate, quoted before we start work. For a maintenance contract, we offer quarterly tune-ups at $200 per visit. That's parts and labor included.
+
+CALLER: What if we sign up for your maintenance plan?
+
+DAVE: Maintenance plan includes four quarterly visits a year. We clean filters, check refrigerant levels, inspect ductwork, test thermostat calibration. It keeps your system running at 95% efficiency year-round. Plus, maintenance customers get priority scheduling for emergency calls.
+
+CALLER: That sounds good. Do you integrate with any existing systems? We have ServiceTitan for job tracking.
+
+DAVE: Oh yes! We use ServiceTitan exclusively. So when you book with us, the job goes into ServiceTitan, and you can see status in real-time. Your team gets updates automatically.
+
+CALLER: Excellent. And geographic limits?
+
+DAVE: We service Phoenix, Scottsdale, Tempe, Mesa, and parts of suburbs within our 30-minute response radius. We don't go much north of Paradise Valley or south of Ahwatukee.
+
+CALLER: We're on South 24th Street, so that's definitely covered?
+
+DAVE: Definitely. That's right in our sweet spot. About 15 minutes from our main office.
+
+CALLER: Great. So just to confirm—you're available Monday-Friday 7 AM to 6 PM normal hours, and 24/7 emergencies. Right?
+
+DAVE: Actually, let me clarify. Normal dispatch is Monday-Friday, 7 AM to 6 PM. We also have Saturday service, 8 AM to 2 PM, for maintenance calls. After hours and Sundays, it's emergency-only. Emergencies on the on-call line go to Linda or me personally.
+
+CALLER: Got it. And what would you need from us to get started?
+
+DAVE: Just your name, phone number, and we'll schedule an initial inspection. That's free. We'll walk through your system, check condition, and give you a maintenance plan recommendation. No pressure—just information.
+
+CALLER: Sounds good. My name is Karen Martinez, phone is 602-555-9012.
+
+DAVE: Perfect, Karen. I'll get your info into our system. We'll call you this week to schedule that inspection. Any questions for me?
+
+CALLER: I think we're all set. Thanks Dave.
+
+DAVE: Perfect. Looking forward to working with Clean Start. Take care!
+
+[End of call]

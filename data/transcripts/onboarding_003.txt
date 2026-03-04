@@ -1,0 +1,48 @@
+ONBOARDING CALL TRANSCRIPT - Guardian Electrical & Austin Data Center
+Account: account_003
+Date: 2026-02-25
+Duration: 19 minutes
+
+[Beginning of call]
+
+ROBERT TORRES: Hi Lisa! Robert Guardian Electrical. Thanks for the site visit yesterday.
+
+CALLER (Lisa): Hi Robert! Yes, thanks for coming by. That was really thorough.
+
+ROBERT: So I wanted to go over my findings before we sign anything. Your main panel is 200-amp service, which is appropriate. But I noticed your circuit breaker panel is from 2003, so it's aging. Not dangerous yet, but we should start planning a refresh.
+
+LISA: How much is that?
+
+ROBERT: The panel itself is maybe $1,500. Installation, we're looking at 3-4 days of work, $85/hour labor. So roughly $3,500-4,500 all-in. But that's a year or two down the road, not urgent.
+
+LISA: Okay. And your recommendations?
+
+ROBERT: Short term, I'd upgrade your UPS system. Your current one is pretty outdated. A new one with better data center specs is maybe $2,500-3,000, plus install. That I'd do sooner—within 6 months—to protect against power fluctuations.
+
+LISA: Can you provide quotes?
+
+ROBERT: Already sent to your email this morning. One for UPS upgrade, one for panel refresh, one for a couple smaller things I found like outlet replacement.
+
+LISA: Great. Now, on the retainer plan—you said $800/month. When would that start?
+
+ROBERT: You can start whenever. I'd recommend we do the first preventive maintenance visit in April. We'd load-test your system, check circuit loads under peak usage, look for any aging breakers. That's part of the retainer.
+
+LISA: And the after-hours caps?
+
+ROBERT: Right. With the retainer, any after-hours emergency is capped at $150, regardless of how late or how long the diagnosis takes. So you know your cost.
+
+LISA: And if it's in the daytime?
+
+ROBERT: Daytime emergency is the same as anyone else—$150 service call, then labor at $85/hour. But maintenance plan gives you 15% discount on parts.
+
+LISA: Perfect. So to get started, I just sign an agreement?
+
+ROBERT: Yes, I'll email the retainer agreement and terms. You sign, send back, and we schedule the first maintenance visit. I'd suggest early April.
+
+LISA: That works. Can I text you questions?
+
+ROBERT: Absolutely. My number is on the agreement.
+
+LISA: Great, Robert. Thanks.
+
+[End of call]

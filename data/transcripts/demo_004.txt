@@ -1,0 +1,80 @@
+DEMO CALL TRANSCRIPT - Swift Move Logistics
+Account: account_004
+Date: 2026-02-18
+Duration: 21 minutes
+
+[Beginning of call]
+
+AUTOMATED SYSTEM: Welcome to Swift Move Logistics. Please hold while we connect you.
+
+CALLER: Hi there.
+
+MICHAEL GONZALEZ (Dispatcher): Hi! Michael Swift Move Logistics dispatch. How can I help?
+
+CALLER: Hey Michael. We're a medical equipment logistics company based in Chicago, and we need on-call dispatch and routing help. We run 5 trucks and do local deliveries.
+
+MICHAEL: Okay, so you're looking for communications support? Like, help dispatching your drivers?
+
+CALLER: Exactly. Right now, my operations manager handles all that manually. It's getting overwhelming. We want a service where customers can call in, get routed correctly.
+
+MICHAEL: Got it. So you don't need the actual trucks—you need the call center coordination?
+
+CALLER: Right. We handle the driving. You handle the phone and dispatch instructions.
+
+MICHAEL: Understood. First, what are your service hours?
+
+CALLER: We operate Monday through Friday, 7 AM to 7 PM Central Time. Most deliveries are during those times, but we do occasional Saturday morning.
+
+MICHAEL: Okay. And what's your geographic service area?
+
+CALLER: Chicago metro area—the city and suburbs within about 45 minutes drive from our warehouse in Pilsen.
+
+MICHAEL: Pilsen—that's south side? Good central location. Now, for calls coming in during business hours, what's your current volume?
+
+CALLER: Maybe 15 to 20 calls a day on average. Spikes on Mondays.
+
+MICHAEL: That's manageable. During business hours, you'd have our dispatch service. We answer calls professionally, take order details, and relay to your fleet. We can use your own dispatch software if you have one, or we can relay information via phone or SMS.
+
+CALLER: We use Google Maps and a simple spreadsheet. It's not fancy.
+
+MICHAEL: That works fine. We can work with that. What about after hours?
+
+CALLER: After hours, the warehouse is closed, but we get occasional calls from customers wanting to reschedule or asking for status. We'd like to take messages and have those calls logged.
+
+MICHAEL: Simple enough. After-hours calls can go to our voicemail service with optional callback routing. We'd store the message and send you a transcript via email by morning.
+
+CALLER: Perfect. What's the pricing?
+
+MICHAEL: For medical equipment logistics, I'd quote per call. Cost is $15 per call answered, plus $0.30 per minute if we're inputting orders into your system. For simple message-takings, it's just the $15 per call. Given your volume, you're looking at roughly $200-300 per month if you use us for all business-hours calls.
+
+CALLER: That's reasonable. What about after-hours?
+
+MICHAEL: After-hours voicemail service is $50 per month. Includes unlimited calls—we transcribe, store, and email you summaries.
+
+CALLER: Great. Do you require any integration or API?
+
+MICHAEL: No. We can work with your spreadsheet, SMS, email—whatever works for you. If you want to upgrade to cloud-based dispatch software later, we can integrate, but not required.
+
+CALLER: Perfect. How do we get started?
+
+MICHAEL: I'd schedule a call with our account manager. She'd ask some detailed questions about your workflow, help you write a call script so when drivers hear the dispatch instructions, they're consistent and professional. Then she'd train you on how to work with our team.
+
+CALLER: When could she call?
+
+MICHAEL: She's available tomorrow. Your timezone is Central, right?
+
+CALLER: Yes.
+
+MICHAEL: What time works for you?
+
+CALLER: How about 10 AM?
+
+MICHAEL: Perfect. I'll have her call at 10 AM Central. What's your name and number?
+
+CALLER: I'm David Park, 773-555-0234.
+
+MICHAEL: David Park, 773-555-0234, 10 AM tomorrow. Excellent. She'll also send you a contract and quote.
+
+CALLER: Great, thanks Michael.
+
+[End of call]

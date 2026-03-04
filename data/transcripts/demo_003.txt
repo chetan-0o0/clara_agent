@@ -1,0 +1,82 @@
+DEMO CALL TRANSCRIPT - Guardian Electrical
+Account: account_003
+Date: 2026-02-17
+Duration: 25 minutes
+
+[Beginning of call]
+
+AUTOMATED SYSTEM: Welcome to Guardian Electrical. Your call is important to us.
+
+CALLER: Hi, I'm calling about emergency electrical service.
+
+ROBERT TORRES (Owner): Hi there! Robert Torres here, Guardian Electrical. What's your situation?
+
+CALLER: We run a data center in Austin—about 5,000 square feet—and our electrical system is critical. We need a contractor who can respond to emergencies at any time.
+
+ROBERT: Data center, wow. Yes, that's a specialty. Power stability is everything for you. Tell me about your operation.
+
+CALLER: We host servers for about 30 clients. If we go down, our clients lose data. We have backup generators, but we still need fast electrical response.
+
+ROBERT: Understood. Location?
+
+CALLER: 3200 East Riverside Drive, Austin, Texas 78741.
+
+ROBERT: Good area. So what kind of electrical work are you typically doing?
+
+CALLER: Maintenance on the main panel, circuit breaker issues, outlet replacement, and we have some networking cables that run through conduit we sometimes need modified.
+
+ROBERT: That's pretty standard. What's causing you to reach out now?
+
+CALLER: Our current electrician is unreliable. Sometimes he's booked out for weeks. We need someone with same-day response capability.
+
+ROBERT: We can definitely do that. Here's what we offer: we're available Monday through Friday, 8 AM to 5 PM, and we have emergency on-call coverage after hours and weekends. For a data center, I'd want to assign a dedicated electrician who learns your system.
+
+CALLER: That's exactly what we need. How fast can you respond to emergencies?
+
+ROBERT: Depends on time of day. During business hours, 1-2 hours. After hours, 2-3 hours, since our after-hours person might need to travel. For critical power issues, I can be there in 1 hour if needed—I live close.
+
+CALLER: Perfect. What about cost?
+
+ROBERT: Emergency service call is $150, includes 1.5 hours of diagnosis. Any work beyond that, we quote. For you guys, given the 24/7 nature, I'd recommend our data center retainer plan.
+
+CALLER: What's that?
+
+ROBERT: $800 a month. Includes two scheduled preventive maintenance visits—one in summer, one in winter—where we test your system under load and replace aging breakers. Plus, your after-hours response is capped at $150 regardless of time of night.
+
+CALLER: And normal work during business hours?
+
+ROBERT: Standard time-and-materials. We charge $85 per hour for labor, parts at cost plus 20%. But maintenance-plan customers get a 15% discount on parts.
+
+CALLER: What area do you service?
+
+ROBERT: Austin metro area—Austin proper, Round Rock, Cedar Park, Pflugerville, west to Dripping Springs. Riverside Drive is right in our service area.
+
+CALLER: Do you have experience with generator hookups?
+
+ROBERT: Absolutely. We've installed and maintained generators for several commercial sites. If you ever want to upgrade your backup system, we can spec that out and manage installation.
+
+CALLER: What if something goes wrong—like you cause a power surge? Do you have insurance?
+
+ROBERT: Yes, we carry $2 million in liability coverage. All work is covered. If we cause any damage, we're responsible. You'll get a certificate of insurance.
+
+CALLER: Great. And integration—can you send us reports?
+
+ROBERT: I can email you a work report after each visit. It'll have photos, list what we checked, what we found, and recommendations.
+
+CALLER: Perfect. How do I schedule an initial site visit?
+
+ROBERT: I'll come out myself, probably tomorrow afternoon. I want to see your main panel, check circuit loads, look at your UPS system, and we'll draft a maintenance plan. Should take about 3 hours.
+
+CALLER: Tomorrow afternoon—is that possible?
+
+ROBERT: For a data center in Austin, I'll make it work. I have 2 PM available.
+
+CALLER: That works. I'm Lisa Chen. Number is 512-555-0192.
+
+ROBERT: Perfect, Lisa. Robert Guardian Electrical, tomorrow 2 PM at 3200 Riverside. I'll text you 30 minutes before. Do you have anyone who will be on-site to let me in?
+
+CALLER: Yes, I'll be here.
+
+ROBERT: Great. See you tomorrow, Lisa.
+
+[End of call]

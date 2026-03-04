@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clara Answers Pipeline — Dashboard</title>
+  <meta name="description"
+    content="Clara Answers automation pipeline dashboard for managing demo and onboarding call processing">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-left">
+      <div class="logo">
+        <span class="logo-icon">⚡</span>
+        <h1>Clara Answers</h1>
+      </div>
+      <span class="badge badge-purple">Pipeline v1.0</span>
+    </div>
+    <div class="header-right">
+      <button class="btn btn-outline" onclick="refreshAccounts()">
+        <span class="btn-icon">↻</span> Refresh
+      </button>
+      <button class="btn btn-secondary" onclick="runDemos()" id="demosBtn">
+        <span class="btn-icon">📄</span> Run Demos
+      </button>
+      <button class="btn btn-secondary" onclick="runOnboardings()" id="onboardingsBtn">
+        <span class="btn-icon">🔄</span> Run Onboardings
+      </button>
+      <button class="btn btn-primary" onclick="runBatch()" id="batchBtn">
+        <span class="btn-icon">▶</span> Run Full Batch
+      </button>
+    </div>
+  </header>
+
+  <!-- Navigation Tabs -->
+  <nav class="tabs">
+    <button class="tab active" data-tab="dashboard" onclick="switchTab('dashboard')">
+      <span>📊</span> Dashboard
+    </button>
+    <button class="tab" data-tab="accounts" onclick="switchTab('accounts')">
+      <span>🏢</span> Accounts
+    </button>
+    <button class="tab" data-tab="tasks" onclick="switchTab('tasks')">
+      <span>📋</span> Task Board
+    </button>
+    <button class="tab" data-tab="diff" onclick="switchTab('diff')">
+      <span>🔍</span> Diff Viewer
+    </button>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main">
+    <!-- Dashboard Tab -->
+    <section id="tab-dashboard" class="tab-content active">
+      <!-- Stats Cards -->
+      <div class="stats-grid" id="statsGrid">
+        <div class="stat-card">
+          <div class="stat-icon blue">🏢</div>
+          <div class="stat-info">
+            <span class="stat-value" id="totalAccounts">0</span>
+            <span class="stat-label">Total Accounts</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon green">✅</div>
+          <div class="stat-info">
+            <span class="stat-value" id="v1Count">0</span>
+            <span class="stat-label">V1 Complete</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon purple">🔄</div>
+          <div class="stat-info">
+            <span class="stat-value" id="v2Count">0</span>
+            <span class="stat-label">V2 Complete</span>
+          </div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon orange">📝</div>
+          <div class="stat-info">
+            <span class="stat-value" id="transcriptCount">0</span>
+            <span class="stat-label">Transcripts</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Upload Section -->
+      <div class="card">
+        <div class="card-header">
+          <h3>📤 Upload Transcripts</h3>
+          <span class="badge badge-blue" id="uploadedCount">0 files</span>
+        </div>
+        <div class="upload-zone" id="uploadZone" onclick="document.getElementById('fileInput').click()">
+          <input type="file" id="fileInput" multiple accept=".txt,.md,.text,.transcript" style="display:none"
+            onchange="handleFileUpload(this.files)">
+          <div class="upload-icon">📁</div>
+          <p class="upload-text">Drag & drop transcript files here or <strong>click to browse</strong></p>
+          <p class="upload-hint">Supports .txt, .md, .text files • Auto-classifies as demo or onboarding</p>
+        </div>
+        <div id="uploadedFiles" class="uploaded-files"></div>
+      </div>
+
+      <!-- Batch Progress -->
+      <div class="card" id="batchProgress" style="display: none;">
+        <div class="card-header">
+          <h3>⏳ Batch Processing</h3>
+          <span class="badge badge-yellow" id="batchStatus">Running...</span>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+        </div>
+        <p class="progress-text" id="progressText">Initializing...</p>
+      </div>
+
+      <!-- Recent Activity -->
+      <div class="card">
+        <div class="card-header">
+          <h3>📡 Pipeline Overview</h3>
+        </div>
+        <div class="pipeline-visual">
+          <div class="pipeline-step">
+            <div class="step-icon">📄</div>
+            <div class="step-label">Transcript</div>
+          </div>
+          <div class="pipeline-arrow">→</div>
+          <div class="pipeline-step">
+            <div class="step-icon">🤖</div>
+            <div class="step-label">Groq LLM</div>
+          </div>
+          <div class="pipeline-arrow">→</div>
+          <div class="pipeline-step">
+            <div class="step-icon">📋</div>
+            <div class="step-label">Account Memo</div>
+          </div>
+          <div class="pipeline-arrow">→</div>
+          <div class="pipeline-step">
+            <div class="step-icon">🎙️</div>
+            <div class="step-label">Agent Spec</div>
+          </div>
+          <div class="pipeline-arrow">→</div>
+          <div class="pipeline-step">
+            <div class="step-icon">💾</div>
+            <div class="step-label">Storage</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Account Cards -->
+      <div class="card">
+        <div class="card-header">
+          <h3>🏢 Processed Accounts</h3>
+        </div>
+        <div class="accounts-grid" id="accountsGrid">
+          <div class="empty-state">
+            <span class="empty-icon">📭</span>
+            <p>No accounts processed yet. Run the batch pipeline to get started.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Accounts Tab -->
+    <section id="tab-accounts" class="tab-content">
+      <div class="card">
+        <div class="card-header">
+          <h3>🏢 Account Details</h3>
+          <select id="accountSelect" onchange="loadAccountDetail(this.value)" class="select">
+            <option value="">Select an account...</option>
+          </select>
+        </div>
+        <div id="accountDetail" class="account-detail">
+          <div class="empty-state">
+            <span class="empty-icon">👆</span>
+            <p>Select an account above to view details</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Task Board Tab -->
+    <section id="tab-tasks" class="tab-content">
+      <div class="kanban-board" id="kanbanBoard">
+        <div class="kanban-column">
+          <div class="column-header pending">
+            <span>📥</span> Pending Demo
+          </div>
+          <div class="kanban-cards" id="kanban-pending_demo"></div>
+        </div>
+        <div class="kanban-column">
+          <div class="column-header v1">
+            <span>✅</span> V1 Complete
+          </div>
+          <div class="kanban-cards" id="kanban-v1_complete"></div>
+        </div>
+        <div class="kanban-column">
+          <div class="column-header onboarding">
+            <span>🔄</span> Pending Onboarding
+          </div>
+          <div class="kanban-cards" id="kanban-pending_onboarding"></div>
+        </div>
+        <div class="kanban-column">
+          <div class="column-header v2">
+            <span>🎉</span> V2 Complete
+          </div>
+          <div class="kanban-cards" id="kanban-v2_complete"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Diff Viewer Tab -->
+    <section id="tab-diff" class="tab-content">
+      <div class="card">
+        <div class="card-header">
+          <h3>🔍 V1 → V2 Diff Viewer</h3>
+          <select id="diffAccountSelect" onchange="loadDiff(this.value)" class="select">
+            <option value="">Select an account...</option>
+          </select>
+        </div>
+        <div id="diffViewer" class="diff-viewer">
+          <div class="empty-state">
+            <span class="empty-icon">🔎</span>
+            <p>Select an account with V2 data to view the diff</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Toast Container -->
+  <div id="toastContainer" class="toast-container"></div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

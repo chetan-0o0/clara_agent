@@ -1,0 +1,86 @@
+DEMO CALL TRANSCRIPT - FreshAir Plumbing Solutions
+Account: account_002
+Date: 2026-02-16
+Duration: 19 minutes
+
+[Beginning of call]
+
+AUTOMATED SYSTEM: Thanks for calling FreshAir Plumbing. All calls are recorded.
+
+CALLER: Hi, is this the plumbing company?
+
+SARAH CHEN (Operations Manager): Yes! This is Sarah from FreshAir Plumbing. How can we help you?
+
+CALLER: Yeah, I'm calling because we manage a commercial building downtown Denver with about 50 tenants, and we need reliable plumbing support. Our current provider is too slow.
+
+SARAH: I understand. So you're looking for on-call plumbing emergency service for a multi-tenant building? That's exactly what we specialize in.
+
+CALLER: Right. We get calls constantly about pipes, toilets, drains—all kinds of issues. We need someone who can respond quickly.
+
+SARAH: Got it. First, what's your building location?
+
+CALLER: 1500 Blake Street, Denver, Colorado. That's the LoDo district.
+
+SARAH: LoDo, perfect. We're based in Denver, so we can cover that easily. Now, what are your office hours? When do you manage the building?
+
+CALLER: We have on-site management Monday through Friday, 7 AM to 5 PM. But the building is occupied 24/7.
+
+SARAH: So you have daytime staff, but tenants need emergency service after hours. What's your emergency protocol now?
+
+CALLER: Honestly it's a mess. Tenants call me, I try to reach a plumber, half the time nobody answers. We end up with angry tenants and water damage.
+
+SARAH: That's frustrating. Here's how we work. You'd have our emergency number. During business hours, Monday-Friday 7 AM to 5 PM Mountain Time, calls go to our dispatch. After hours and weekends, calls go to our on-call technician. For your building, we try to respond within 45 minutes downtown.
+
+CALLER: After-hours response? That's huge. How much would that cost?
+
+SARAH: Emergency service call is $125, includes one hour of diagnosis and first-fix attempt. If it's simple—like unclogging a drain or stopping a leak—that's usually covered. Complex jobs, we quote before proceeding. After you're established, I'd normally recommend our multi-unit building plan.
+
+CALLER: What's that include?
+
+SARAH: Quarterly inspections of main lines, two free service calls per year, and 24/7 emergency response with priority dispatch. It's $600 a month.
+
+CALLER: Hmm, that's not bad actually. What about integration with our property management software?
+
+SARAH: What software do you use?
+
+CALLER: AppFolio.
+
+SARAH: We don't integrate directly with AppFolio yet, but we can send you automated alerts via email or SMS when a job is created and when it's completed. You can then log it in AppFolio manually, or we can provide JSON reports daily.
+
+CALLER: What about geographic limits?
+
+SARAH: We service Denver metro area—downtown, LoDo, Five Points, Capitol Hill, Cheesman Park area. We try to stay within 20-minute response time during day, 30-minute after hours.
+
+CALLER: Blake Street is pretty central?
+
+SARAH: Blake Street LoDo is maybe 8 minutes from our shop. Perfect for us.
+
+CALLER: Good. Now, here's a question: what if my building has an issue that requires a specialty plumber—like backflow prevention certification or water treatment?
+
+SARAH: Great question. We have a partner network. If it's beyond standard plumbing, we call in specialists. You don't have to coordinate—we handle that. We bill you for sub-work at cost plus 10%.
+
+CALLER: Can you do regular maintenance visits?
+
+SARAH: Absolutely. We'd recommend quarterly visits for a 50-unit building. That's inspecting main line cleanouts, checking water pressure regulators, testing relief valves, and looking for corrosion or leaks.
+
+CALLER: Sounds good. How do I get started?
+
+SARAH: I'd schedule an initial site visit—no charge. Our master plumber, Marcus, would walk through the building, check your main shutoff, look at your water pressure, and we'd draft a maintenance and emergency service plan. Takes about 2 hours.
+
+CALLER: When could you come by?
+
+SARAH: I have open time next week—Tuesday or Wednesday morning?
+
+CALLER: Wednesday morning works. What time?
+
+SARAH: How about 9 AM?
+
+CALLER: Perfect. I'm James Hoffman. My number is 303-555-0847.
+
+SARAH: Great, James. I have 9 AM Wednesday at 1500 Blake. I'll send you a confirmation text and email. Marcus will call you 30 minutes before arrival.
+
+CALLER: Perfect. Thanks Sarah.
+
+SARAH: Thank you, James. See you Wednesday!
+
+[End of call]

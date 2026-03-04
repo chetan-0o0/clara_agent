@@ -1,0 +1,23 @@
+{
+  "name": "clara-agent-pipeline",
+  "version": "1.0.0",
+  "description": "Zero-cost automation pipeline: Demo Call → Retell Agent Draft → Onboarding Updates → Agent Revision",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node src/index.js",
+    "batch": "node scripts/batch_process.js",
+    "generate-data": "node scripts/generate_sample_data.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "groq-sdk": "^0.5.0",
+    "multer": "^2.1.0",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,66 @@
+ONBOARDING CALL TRANSCRIPT - Sunrise HVAC & Clean Start Cleaning
+Account: account_001
+Date: 2026-02-23
+Duration: 17 minutes
+
+[Beginning of call]
+
+LINDA CHU (Operations Manager): Hi Karen! Linda from Sunrise HVAC. Thanks for scheduling this onboarding call.
+
+CALLER (Karen Martinez): Hi Linda! Thanks for reaching out.
+
+LINDA: So we scheduled the initial inspection and we're ready to formalize things. I have a few clarifications from our first conversation with Dave.
+
+KAREN: Sure, go ahead.
+
+LINDA: First, you mentioned business hours are Monday-Friday 6 AM to 6 PM. But now I'm hearing you also want Saturday service?
+
+KAREN: Right! We actually realized our warehouse team works some Saturdays, usually 8 AM to 2 PM. Not every Saturday, just some. Maybe 2-3 Saturdays a month.
+
+LINDA: Okay, so weekdays 6 AM-6 PM, and occasional Saturday 8 AM-2 PM. We can do that. We'll have someone available those Saturday windows, and you can call in advance if you know you'll need service.
+
+KAREN: Perfect.
+
+LINDA: Now, second thing. You said perishable inventory—what I heard is you're storing food? That changes things. Are you doing food storage or just commercial cleaning?
+
+KAREN: Oh! I should have been clearer. We do commercial cleaning. So we clean offices, warehouses, that sort of thing. No food storage. I said perishable inventory but I meant sensitive equipment—some clients have electronics, pharmaceuticals, things that can't be exposed to heat.
+
+LINDA: Ah got it! That makes sense. So your own facility is a commercial warehouse, but your concern is protecting customer equipment while you're doing work.
+
+KAREN: Yes, exactly. So if our AC fails during a client visit, it could damage their equipment.
+
+LINDA: Understood. That's actually not as critical as I thought for emergency dispatch, but we'll keep that in mind. If you have an emergency on a client site, you'd call us and let us know it's urgent.
+
+KAREN: Right.
+
+LINDA: Third thing—geographic limits. You're at South 24th Street, inside Phoenix proper. I want to confirm: any other locations you do work at? Or is that your only base?
+
+KAREN: Just that one location. But sometimes we get service calls to go out to suburbs—Scottsdale, Tempe, Gilbert area. But those are our clients' locations, not ours.
+
+LINDA: So if your AC fails, it's always at South 24th?
+
+KAREN: Yes, that's our warehouse. That's the critical location.
+
+LINDA: Perfect. So we're covering one location primarily. Now, one more clarification: ratesBench marking. Dave quoted you $85 service call, $200 quarterly maintenance. But I want to confirm: do you want the quarterly maintenance plan, or just emergency call pricing?
+
+KAREN: Actually, after thinking about it, yes. The quarterly maintenance makes sense. We should do that. So $200 per visit, four times a year, right?
+
+LINDA: Yes, exactly. $200 per quarter per visit. We'll schedule those, and you'll get priority on emergency calls too.
+
+KAREN: Sounds good. And for emergencies after hours, it's still you or Dave personally?
+
+LINDA: Yes. If it's after hours—outside 6 AM to 6 PM weekdays or outside those Saturday windows—any emergency call goes to our dispatch, which routes to on-call. That's me or Dave, depending on who's scheduled. You'll always get a real person.
+
+KAREN: Excellent. And the integration thing with ServiceTitan—can you walk me through how that works?
+
+LINDA: Sure. When you call and schedule work, we input the job into our ServiceTitan account under your customer ID. You can see it in your client portal—job status, technician assigned, photos of work, invoice. It's all synced automatically.
+
+KAREN: Perfect. I think we're ready to get started.
+
+LINDA: Great! I'll send over a service agreement and rate sheet. You'll sign and return, and then we start the quarterly maintenance schedule. First visit will be sometime in March. I'll coordinate with you on dates.
+
+KAREN: Sounds perfect, Linda. Thanks.
+
+LINDA: Thank you, Karen. We'll take great care of your facility.
+
+[End of call]

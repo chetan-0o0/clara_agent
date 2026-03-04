@@ -1,0 +1,94 @@
+DEMO CALL TRANSCRIPT - Perfect Temp HVAC
+Account: account_005
+Date: 2026-02-19
+Duration: 18 minutes
+
+[Beginning of call]
+
+AUTOMATED SYSTEM: Thank you for calling Perfect Temp HVAC and Refrigeration.
+
+CALLER: Hi, I'm calling about commercial refrigeration support.
+
+JAMES WASHINGTON (Manager): Hey there! James at Perfect Temp. What's on your mind?
+
+CALLER: We're a boutique restaurant group with 3 locations in the Bay Area, and our refrigeration is critical. We need reliable maintenance and emergency response.
+
+JAMES: Absolutely. Three locations—that's a good client for us. Which cities?
+
+CALLER: San Francisco, Oakland, and Berkeley.
+
+JAMES: Perfect. We service all three areas. Now, what kind of refrigeration are you running?
+
+CALLER: Reach-in coolers, walk-in freezers, display cases. Classic restaurant equipment. Plus some backup generators for those.
+
+JAMES: Standard setup for restaurants. What's prompting the call now?
+
+CALLER: We've had two incidents where our walk-in went down and we couldn't reach anyone fast enough. We lost thousands in food.
+
+JAMES: That's painful. Okay, so you need reliable after-hours emergency response.
+
+CALLER: Correct.
+
+JAMES: Here's what we offer. Available Monday-Friday, 8 AM to 5 PM California time. We have Saturday emergency coverage. And after-hours emergency for critical calls.
+
+CALLER: What counts as critical?
+
+JAMES: Walk-in failure—any of your three locations. Display case failure if it exposes product to unsafe temperature. Generator or compressor failure. That kind of thing.
+
+CALLER: And response time?
+
+JAMES: During business hours, 1-2 hours for your area. After hours emergency, 3-4 hours—we have to get our tech moving from home.
+
+CALLER: Okay. Cost?
+
+JAMES: Service call is $110. That's first hour of diagnosis. If it's a simple fix—filter change, compressor restart, that kind of thing—often covered in that. Complex jobs, we quote. For your situation with three locations, I'd recommend our restaurant group plan.
+
+CALLER: What's that?
+
+JAMES: $750 per month for all three locations. Includes quarterly maintenance visits—one visit per location per quarter. We check compressors, clean coils, check thermostat calibration. Plus, emergency calls are flat $85 each—no hourly rate, just fixed cost.
+
+CALLER: What if we have multiple emergencies in one month?
+
+JAMES: You'd still pay the flat $85 per call, so after-hours service is quite predictable. Plus, maintenance customers get priority dispatch—we come to you before non-contract customers.
+
+CALLER: Great. What about parts and labor beyond diagnosis?
+
+JAMES: Labor is $95 per hour. Parts are at cost plus 15% markup. But with the maintenance plan, we often catch small issues before they become failures, saving you money.
+
+CALLER: Do you service generator maintenance too?
+
+JAMES: No, that's not our specialty. But we have a partner who does. If generatorfails, we'll call them, coordinate the service, and you'll get billed separately.
+
+CALLER: Okay. Geographic coverage?
+
+JAMES: Bay Area proper—San Francisco, Oakland, Berkeley, down to San Jose, east to Pleasanton. Your three locations are all covered. SF is maybe 20 minutes from base, Oakland and Berkeley similar.
+
+CALLER: Perfect. How do I get started?
+
+JAMES: I'd schedule a site visit—actually, since you have three locations, two visits. I'd come see your main kitchen setup, check the equipment, and draft a maintenance plan with cost projections.
+
+CALLER: When?
+
+JAMES: Next week sometime?
+
+CALLER: Next Tuesday works.
+
+JAMES: Which location?
+
+CALLER: Start with San Francisco—that's the flagship. Address is 1450 Mission Street.
+
+JAMES: Okay, Tuesday at 1450 Mission. What time?
+
+CALLER: How about 11 AM?
+
+JAMES: Perfect. I'll be there 11 AM Tuesday. Your name and phone?
+
+CALLER: I'm Carmen Rodriguez. 415-555-0456.
+
+JAMES: Great, Carmen. I have it all down. I'll send confirmation and I'll call you Monday to confirm.
+
+CALLER: Sounds good, James. Thanks.
+
+JAMES: Thank you, Carmen. See you Tuesday!
+
+[End of call]
